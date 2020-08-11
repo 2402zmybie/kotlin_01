@@ -5,4 +5,11 @@ fun main() {
     for ((i,e) in lists.withIndex()) {
         print("$i $e \n")
     }
+
+    println("-------------")
+
+    //遍历一个不包含末尾元素的区间
+    for(index in 0 until lists.size) {
+        println("${index}----${lists[index]}")
+    }
 }
